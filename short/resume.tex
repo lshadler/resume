@@ -1,0 +1,109 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.76]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Lucas}{Shadler}
+\title{Software Engineer and Scientist}                               % optional, remove / comment the line if not wanted
+\address{5 Greendale Drive}{Rochester NY,}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+1~(234)~567~890}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+1~(585)~766~7886}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{lxs2208@rit.edu}                               % optional, remove / comment the line if not wanted
+\homepage{lukeshadler.tech}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Objective: To provide a unique approach and thought process to original and effective solutions.}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2013--2017}{B.S. Physics}{Rochester Institute of Technology}{Rochester, NY}{\textit{3.9 GPA}}{Minors: Computer Science, Electrical Engineering, Mathematics}
+
+
+\section{Experience}
+
+\cventry{July 2017 -- Present}{Software Developer}{Solü Technology Partners}{Rochester, NY}{}{Working as part of a Scrum team to produce new and innovative software solutions. Full stack development, on the frontend with AngularJS $2$ and backend with the Spring framework to create a fully integrated client-facing application.}%
+
+\cventry{Sept 2016 -- Dec 2016}{Research and Development Engineer (Co-op)}{WiTricity Corporation}{Watertown, MA}{}{Developed auxiliary systems to aid in the safety of wireless power transfer. Prototyped embedded data acquisition systems, with firmware produced in C, visualized in Python.}%
+
+\cventry{Summer 2016}{Improving the Stochastic Template Bank Algorithm for aLIGO}{LIGO}{Pasadena, CA}{}{Developed an improved Markov Chain Monte Carlo method of analyzing Gravitational Wave data. Developed in C with OpenMP for parallel computing.}
+
+\cventry{Fall 2014 -- Summer 2015}{Optimization of \emph{MINERvA} Proton Selection Algorithm}{FermiLab}{Chicago, IL}{}{Wrote code in C++ to calculate the energy of incoming neutrinos in a Neutral-Current Elastic reaction within the MINERvA detector at the Fermilab.}
+
+\cventry{2013 -- 2015}{Feeding and Feedback in Active Galactic Nuclei}{RIT}{Rochester, NY}{}{Ran three-dimensional morpho-kinematical simulations aimed at confirming and analyzing the anticipated gas kinematics of active galactic nuclei, developed in Java.}
+
+
+\section{Qualifications}
+\cvdoubleitem{Proficient Languages}{C, C++, Python, Java, MIPS, MySQL}{Technical Applications}{MATLAB, LabVIEW, LaTeX, CAD, PCB Design, Mathematica}
+\cvdoubleitem{Basic Languages}{HTML, CSS, Arduino, Scheme, Javascript, Typescript}{Programming Subfields}{Parallel Computing, Machine Learning, Big Data, AngularJS, ReactJS, Spring}
+\cvdoubleitem{Misc. Software}{Adobe Photoshop, Movie Maker, Microsoft Office}{Misc. Skills}{Digital Logic, Communication, Organization, Leadership}
+
+\section{Relevant Coursework}
+\cvlistitem{\textbf{Computer Science:} Mechanics of Programming, Computer Science Theory, Concepts of Computer Systems, Languages, Data Structures and Algorithms, Databases}
+\cvlistitem{\textbf{Mathematics:} Multivariable Calculus, Probability and Statistics, Differential Equations, Linear Algebra (I,II), Numerical Linear Algebra}
+\cvlistitem{\textbf{Physics:} Electricity and Magnetism, Classical Mechanics, Statistical Mechanics, Quantum Mechanics, Solid State Physics, Physical Optics}
+\cvlistitem{\textbf{Electrical Engineering:} Electronic Measurements, Circuits (AC,DC), Electronics I} 
+%\begin{flushright}
+%\end{flushright}
+\end{document}
+
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+%\end{document}

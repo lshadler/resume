@@ -1,0 +1,183 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://lukeshadler.tech/}{\Large Lucas Shadler}} & Email : \href{mailto:lshadler13@gmail.com}{lshadler13@gmail.com}\\
+  \href{http://lukeshadler.tech/}{http://lukeshadler.tech} & Mobile : +1-585-766-7886 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rochester Institute of Technologyy}{Rochester, NY}
+      {Bachelors in Physics; Minors: Computer Science, Math, Electrical Engineering  GPA: 3.9}{Aug. 2013 -- Jun. 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Solu Technology Partners}{Rochester, NY}
+      {Full StackSoftware Engineer}{July 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Scrum Team}
+          {Work as a member of an Agile Scrum team to provide state-of-the-art Angular 2 Material Applications, with daily code reviews to maintain a fast-paced agenda}
+        \resumeItem{Spring/MySQL}
+          {Integrate a MySQL database architecture with front-end components using the Spring framework, Java Persistence, and RESTful API.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {WiTricity Corporation}{Boston, MA}
+      {R\&D Engineer (Co-Op)}{Jan 2014 - Oct 2016}
+      \resumeItemListStart
+        \resumeItem{Wireless Power Transfer}
+          {Developed auxiliary systems to prevent foreign object and living object intervention within the field to aid in the safety of wireless power transfer.}
+        \resumeItem{Embedded Systems Firmware}
+          {Produced a serial method of transferring data from a PSoC5 microcontroller reading sensor measuremACents into real-time and offline datasets.}
+        \resumeItem{PCB Prototyping}
+          {Used Altium PCB designer to create new and space-efficient prototype boards for sensor development and positioning. Holders and caps for the designs were 3D modeled using Solidworks.}
+        \resumeItem{Machine Learning}
+          {Created trained models for position detection using machine learning techniques in python using the toolkit SKLearn. Developed a method to adapt the model in real time to provide directives for position alignment.}
+        \resumeItem{Robotics}
+          {Developed a CNC for consistent and persistent testing over a wide range of sensor positions, programmed to be interactively controlled by a Python GUI.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Laser Interferometer Gravitational-Wave Observatory @ Caltech}{Pasadena, CA}
+      {Astrophysicist}{Summer 2016}
+      \resumeItemListStart
+        \resumeItem{Gravitational Wave Astronomy}
+          {Recieved training on the design behind the most sensitive detector made by mankind and how to extract relevant Gravitational Wave information from it.}
+        \resumeItem{Multi-threaded Programming (OpenMP)}
+          {Used an Open Source to create a performance-oriented method of filtering signal data by utilizing multi-threaded CPUs.}
+        \resumeItem{Presentation and Reporting}
+          {Completed the project with a publishable scientific report, as well as a presentation given to the entire LIGO collaboration.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {FermiLab}{Chicago, IL}
+      {High Energy Particle Physicist}{Fall 2014 - Summer 2015}
+      \resumeItemListStart
+        \resumeItem{Particle Tracking Algorithm}
+          {Produced an algorithm in C++ to recreate the path of a Proton from a Neutrino interation using CCD data within MINERvA}
+        \resumeItem{Team-specific Legacy Framework}
+          {Utilized framework structure created previously by other scientists to augment the algorithm such that the algorithm could be used on incoming data from the detector}
+        \resumeItem{Large Team Communication}
+          {Experience in navigating a large volume of collaborators, seeking assistance only where needed.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Lab for Multiwavelength Astrophysics @ RIT}{Rochester, NY}
+      {Astrophysicist}{2013-2017}
+      \resumeItemListStart
+        \resumeItem{3D data modeling}
+          {Visualized 3D Morpho-kinematic models of nearby Galaxy NGC1386 in the interest of characterizing the mechanism by which its Supermassive Black Hole accretes matter.}
+        \resumeItem{Workshop Teaching}
+          {Taught a workshop class at Universidade Federal do Rio Grande do Sul based on the modeling techniques used.}
+      \resumeItemListEnd
+
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Personal Website}
+      {Static website produced using the Jekyll framework, complete with version control, a blogging system, templating, and continuous integration. }
+    \resumeSubItem{Pollaroid}
+      {An Open Source tool to allow users to reach out to their local representatives and participate in political polls.}
+
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
