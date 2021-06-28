@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.27)  27 JUN 2021 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.27)  27 JUN 2021 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -810,15 +810,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(59.74988pt, 478.00812pt, 59.74988pt)
-* v-part:(T,H,B)=(67.60269pt, 676.04005pt, 101.4041pt)
+* h-part:(L,W,R)=(65.72623pt, 466.0554pt, 65.72624pt)
+* v-part:(T,H,B)=(74.36453pt, 659.1355pt, 111.54681pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=478.00812pt
-* \textheight=676.04005pt
-* \oddsidemargin=-12.52011pt
-* \evensidemargin=-12.52011pt
-* \topmargin=-41.6673pt
+* \textwidth=466.0554pt
+* \textheight=659.1355pt
+* \oddsidemargin=-6.54376pt
+* \evensidemargin=-6.54376pt
+* \topmargin=-34.90546pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -907,29 +907,21 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 71.
-
-Underfull \hbox (badness 1205) in paragraph at lines 79--79
-[]\T1/lmss/m/n/10 (+20) Monorepo Man-age-ment, In-cre-men-tal
- []
-
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 85.
-[1
+ [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./resume.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./resu
+me.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: C9169A4545B2D56DCB554303FCF23EE0;493.
  ) 
 Here is how much of TeX's memory you used:
- 21989 strings out of 478994
- 403872 string characters out of 5858184
- 736840 words of memory out of 5000000
+ 21999 strings out of 478994
+ 403978 string characters out of 5858184
+ 736776 words of memory out of 5000000
  38955 multiletter control sequences out of 15000+600000
- 473716 words of font info for 103 fonts, out of 8000000 for 9000
+ 474287 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,116p,557b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -943,7 +935,7 @@ sbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
 cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texli
 ve/2021/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 240780 bytes).
+Output written on resume.pdf (1 page, 240287 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
